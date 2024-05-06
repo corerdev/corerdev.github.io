@@ -1,0 +1,1055 @@
+/* ------------------- Contenido de la pagina ------------------- */
+.shopping-cart {
+    width: 80%;
+    margin: 20px auto;
+    background: #f3f3f3;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+}
+
+.cart-items {
+    margin-bottom: 20px;
+}
+
+.cart-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.cart-item {
+    display: flex;
+    align-items: center;
+}
+
+.cart-item-image {
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.cart-header {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+}
+
+.cart-column {
+    flex: 1;
+}
+
+.cart-price {
+    text-align: right;
+}
+
+.cart-quantity {
+    display: flex;
+    align-items: center;
+}
+
+.cart-quantity-input {
+    width: 50px;
+    height: 34px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.btn-danger {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-purchase {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.cart-total {
+    text-align: right;
+    margin-top: 10px;
+}
+
+.cart-total-title {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.tab-pane {
+    color: wheat;
+}
+.carousel {
+    position: relative;
+    overflow: hidden;
+}
+
+.carousel-images {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.carousel-images img {
+    max-width: 100%;
+    display: block;
+}
+
+button.prev,
+button.next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    z-index: 100;
+}
+
+button.prev {
+    left: 10px;
+}
+
+button.next {
+    right: 10px;
+}
+#hellYeahLetsGoTop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 1000;
+}
+* {
+    font-family: "Roboto";
+    text-decoration: none;}
+h1, h3 {
+    font-family:'Trade Winds';}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto 1000px auto;
+  grid-template-rows: 100px auto auto auto 50px;
+  grid-template-areas:
+  'header header header '
+  'side main  side2'
+  'side main2 side2'
+  'side main3 side2'
+  'footer footer footer';
+  grid-gap: 10px;
+  background-color: black;
+  padding: 10px;}
+.header { 
+    grid-area: header;
+    background-color: #9d44c0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;}
+.headerPichote { 
+    grid-area: header;
+    background-color: #9d44c0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;}
+.side { 
+    grid-area: side;
+    background-color: black;}
+.side2 { 
+    grid-area: side2; 
+    background-color: black;}
+.main { 
+    grid-area: main;
+    background-color: #73aede; }
+.main2 { 
+    grid-area: main2;
+    background-color: #5aa6e4; }
+.main3 { 
+    grid-area: main3;
+    background-color: #73aede; }
+.footer { 
+    grid-area: footer;
+    background-color: black; }
+
+/* ------------------- Contenido del header ------------------- */
+
+.logo {
+    max-width:95%;
+    max-height:95%;
+    margin: 5px;}
+.logoDiv {
+    max-width:90px;
+    max-height:90px;
+    display: inline; }
+.titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: center;
+    margin-left: 20px; }
+
+.logoTitulo {
+    display: flex;
+    align-items: center;
+    max-width:100px;
+    max-height:90px;
+    margin-right:200px; }
+.menu {
+    list-style: none;
+    padding: 0; }
+.menu li {
+    display: inline;
+    margin-right: 20px; }
+.menu li:link {
+    color: rgb(48, 0, 40); }
+.menu li:active {
+    color: rgb(48, 0, 40); }
+.menu li:visited {
+    color: rgb(253, 0, 173);}
+.menu li:hover {
+    transition: color 0.5s ease;
+    color: rgb(56, 0, 169);}
+.menu h2 {
+    display: inline;}
+.menuPichote {
+    list-style: none;
+    padding: 0; }
+.menuPichote li {
+    display: inline;
+    margin-right: 20px; }
+.menuPichote li:link {
+    color: rgb(48, 0, 40); }
+.menuPichote li:active {
+    color: rgb(48, 0, 40); }
+.menuPichote li:visited {
+    color: rgb(253, 0, 173);}
+.menuPichote li:hover {
+    transition: color 0.5s ease;
+    color: rgb(56, 0, 169);}
+.menuPichote h2 {
+    display: inline;}
+.menuJuegos {
+    display: none;
+    
+}
+/* ------------------- Contenido del main1 ------------------- */
+.mainGrid {
+    display: grid;
+    grid-template-columns: 250px auto auto 250px;
+    grid-template-rows: 150px 150px;
+    grid-template-areas:
+    'imagenPequena1 imagenGrande imagenGrande imagenPequena3'
+    'imagenPequena2 imagenGrande imagenGrande imagenPequena4';
+    grid-gap: 10px;
+    padding: 10px;
+    max-width: 100%;
+    max-height: 100%;}
+.imagenPequena1 { 
+    grid-area: imagenPequena1;}
+.imagenPequena2 { 
+    grid-area: imagenPequena2;}
+.imagenPequena3 { 
+    grid-area: imagenPequena3; }
+.imagenPequena4 { 
+    grid-area: imagenPequena4; }
+.imagenGrande { 
+    grid-area: imagenGrande;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black; }
+.imgPequeña { 
+    max-width: 100%;
+    max-height: 100%; }
+.imgGrande { 
+    max-width: 100%;
+    max-height: 100%; }
+.plataformas {
+    width: 500px;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;}
+.plataformasDiv {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+.imgPlataforma {
+    max-height: 100%;}
+.review {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:25px;}
+.imgEstrellas {
+    max-height: 100%;}
+.pReview {
+    font-style: italic;}
+.previewer {
+    font-weight: bold;}
+.videojuejoDescripcion {
+    font-style: italic;
+    justify-content: center}
+.videojuejoDescripcionDiv {
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;}
+.videojuejoParrafoDiv{
+    text-align: justify;
+    width:100%;}
+.videojuejoLink {
+    width: 200px;}
+/* ------------------- Contenido del main2 ------------------- */
+.main2Div {
+    height: 100%;
+    width: 100%;}
+.imagenYRatingDiv2 {
+    display: grid;
+    grid-template-columns: 400px auto;
+    grid-template-rows: 100px 100px ;
+    grid-template-areas:
+    'imagenMain2 plataformasMain2 '
+    'imagenMain2  reviewMain2';
+    grid-gap: 10px;;
+    padding: 10px;}
+.imgMain2 {
+    max-height: 200px;}
+.imagenMain2Div {
+    grid-area: imagenMain2;
+    width: 400px;}
+.plataformasMain2 {
+    grid-area: plataformasMain2;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 25px;}
+.reviewMain2 {
+    text-align: center;
+    grid-area: reviewMain2;
+    height: 25px;
+    display: block;
+    justify-content: space-evenly;
+    align-items: center;}
+.imgEstrellasMain2 {
+    max-height: 25px;}
+/* ------------------- Contenido del main3 ------------------- */
+.main3Div {
+    height: 100%;
+    width: 100%;}
+.imagenYRatingDiv3 {
+    display: grid;
+    grid-template-columns: 400px auto;
+    grid-template-rows: 100px 100px ;
+    grid-template-areas:
+    'plataformasMain3 imagenMain3 '
+    'reviewMain3 imagenMain3 ';
+    grid-gap: 10px;
+    padding: 10px;
+    justify-content: space-evenly;}
+.imgMain3 {
+    max-height: 200px;}
+.imagenMain3Div {
+    grid-area: imagenMain3;
+    width: 400px;}
+.plataformasMain3 {
+    grid-area: plataformasMain3;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 25px;}
+.reviewMain3 {
+    text-align: center;
+    grid-area: reviewMain3;
+    height: 25px;
+    display: block;
+    justify-content: space-evenly;
+    align-items: center;}
+.imgEstrellasMain3 {
+    max-height: 25px;}
+/* ------------------- Contenido del footer ------------------- */
+.footerDiv {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.imgSocial {
+    max-height: 50px;
+    height: 25px;
+}
+.footerDiv p {
+    color: white;
+}
+/* ------------------- Contenido de la pagina de videjuego ------------------- */
+/* ------------------- Contenido de la pagina de videjuego ------------------- */
+/* ------------------- Contenido de la pagina de videjuego ------------------- */
+/* ------------------- Contenido de la pagina de videjuego ------------------- */
+.grid-containerVideojuego {
+    display: grid;
+    grid-template-columns: auto 1000px auto;
+    grid-template-rows: 100px auto 50px;
+    grid-template-areas:
+    'header header header '
+    'side main  side2'
+    'footer footer footer';
+    grid-gap: 10px;
+    background-color: black;
+    padding: 10px;}
+.mainGridVideojuego {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 275px 275px 275px;
+    grid-template-areas:
+    'imagenGrandeV imagenGrandeV'
+    'imagenGrandeV imagenGrandeV'
+    'imagenPequena1V imagenPequena2V';
+    grid-gap: 5px;
+    padding: 5px;
+    max-width: 100%;
+    max-height: 100%;}
+.imagenPequena1V { 
+    grid-area: imagenPequena1V;
+    text-align: center;
+    border-radius: 5px;}
+.imagenPequena2V { 
+    grid-area: imagenPequena2V;
+    text-align: center;
+    border-radius: 5px;}
+.imagenPequena3V { 
+    grid-area: imagenPequena3V;
+    border-radius: 5px; }
+.imagenPequena4V { 
+    grid-area: imagenPequena4V;
+    border-radius: 5px;}
+.imagenGrandeV { 
+    grid-area: imagenGrandeV;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;}
+.imgPequeñaV { 
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 10px; }
+.imgGrandeV { 
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 10px; }
+.cosillasTecnicas {
+    border: 2px black solid;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 150px;
+    grid-template-areas:
+    'imagenPequena3V textoTecnicoUno textoTecnicoUno ';
+    grid-gap: 10px;
+    padding: 10px;}
+.cosillasTecnicas2 {
+    border: 2px black solid;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 150px;
+    grid-template-areas:
+    'textoTecnicoDos textoTecnicoDos imagenPequena4V';
+    grid-gap: 10px;
+    padding: 10px;}
+.textoTecnicoUno {
+    grid-area: textoTecnicoUno;}
+.textoTecnicoDos {
+    grid-area: textoTecnicoDos;}
+/* ------------------- Contenido de la pagina de merchandising ------------------- */
+/* ------------------- Contenido de la pagina de merchandising ------------------- */
+/* ------------------- Contenido de la pagina de merchandising ------------------- */
+/* ------------------- Contenido de la pagina de merchandising ------------------- */
+.grid-containerMerchandising {
+    display: grid;
+    grid-template-columns: auto 1000px auto;
+    grid-template-rows: 100px auto 50px;
+    grid-template-areas:
+    'header header header '
+    'side main  side2'
+    'footer footer footer';
+    grid-gap: 10px;
+    background-color: black;
+    padding: 10px;}
+.menuTienda {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 25px 25px;
+    grid-template-areas:
+    'headerTienda headerTienda headerTienda'
+    'compras ofertas cesta ';
+    grid-gap: 10px;
+    padding: 10px;
+    justify-content: center;}
+.tiendaHeader {
+    grid-area: headerTienda;
+    height: 100%;
+    width: 100%;
+    border: 2px black solid;
+    text-align: center;}
+.anadir {
+    max-width: 50px;
+    max-height: 50px;
+}
+.menuOpcion1 {
+    display: inline;
+    grid-area: compras;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    border: 2px black solid;
+    margin: auto;}
+.menuOpcion2 {
+    grid-area: ofertas;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    border: 2px black solid;
+    margin: auto;}
+.menuOpcion3 {
+    grid-area: cesta;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    border: 2px black solid;
+    margin: auto;}
+.imgMenuTienda {
+    max-height: 100%;
+    max-width: 100%;}
+.textoMenu {
+    max-height: 100%;
+    max-width: 100%;
+    margin: auto;}
+.objetosFlex {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  height: auto;
+  margin:auto;}
+.objetosFlex > div {
+  background-color: #ffadeb;
+  margin: 10px;
+  padding: 20px;
+  width: 24%;
+  height: auto;
+  text-align: center;
+  border: 2px black solid;}
+.objetosFlex > div > img {
+    width: 130px;
+    height: 130px;}
+.objetosFlex > div > .objetoTitulo {
+    text-align: center;
+    font-size: 25px;
+    font-family:'Trade Winds';
+    border: 2px black solid;}
+.objetosFlex > div > p {
+    text-align: center;
+    font-size: 14px;
+    justify-self: center;   }
+.objetosFlex > div > .añadirCesta {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: italic;}
+a:hover {
+    box-shadow: 0px -5px 20px 0px rgba(0, 0, 0, 0.5);
+    transition: box-shadow 0.5s ease;
+}
+/* ------------------- Contenido de la página del team ------------------- */
+/* ------------------- Contenido de la página del team ------------------- */
+/* ------------------- Contenido de la página del team ------------------- */
+/* ------------------- Contenido de la página del team ------------------- */
+.teamGrid {
+    display: grid;
+    grid-template-columns: auto ;
+    grid-template-rows: auto;
+    grid-template-areas:
+    'mapa';
+    grid-gap: 10px;
+    padding: 10px;
+    max-width: 100%;
+    max-height: 100%;}
+
+.mapa {
+    
+    height: 440px;
+    width:100%;
+    max-width:100%;
+    max-height:100%;
+}
+
+.video {
+    height: 400px;
+    width:100%;
+    max-width:100%;
+    max-height:100%;
+}
+
+.teamText {
+
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: italic;
+    margin: 10px;
+    padding: 20px;
+
+}
+.mapouter {
+
+    text-align: center;
+}
+
+/* ------------------- Contenido de la página del carrito ------------------- */
+
+.mainCarrito { 
+    grid-area: main;
+    background-color: #73aede; 
+    min-height: 600px;}
+.menuDivOculto {
+    display: none;
+}
+.menuDiv {
+    display: block;
+}
+/* ------------------- Cambio a versión pequeña ------------------- */
+/* ------------------- Cambio a versión pequeña ------------------- */
+/* ------------------- Cambio a versión pequeña ------------------- */
+/* ------------------- Cambio a versión pequeña ------------------- */
+/* ------------------- Cambio a versión pequeña ------------------- */
+@media (max-width:1000px) {
+    /* ------------------- Contenido de la pagina ------------------- */
+* {
+    font-family: "Roboto";
+    text-decoration: none;}
+h1 {
+    font-weight: bold;
+    font-size: 100%;}
+h2 {
+    font-weight: bold;
+    font-size: 100%;}
+p {
+    font-size: 100%;}
+.side {
+    display:none;}
+.side2 {
+    display:none;}
+.grid-container {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: auto auto auto auto auto;
+  grid-template-areas:
+  'header'
+  'main'
+  'main2'
+  'main3'
+  'footer';
+  grid-gap: 1%;
+  background-color: black;
+  padding: 1%;}
+.header { 
+    grid-area: header;
+    background-color: #9d44c0;
+    display: flex;
+    align-items: center;}
+.headerPichote { 
+    grid-area: header;
+    background-color: #9d44c0;
+    display: flex;
+    align-items: center;}
+/* ------------------- Contenido del header ------------------- */
+.logo {
+    max-width:95%;
+    max-height:95%;
+    margin: 0.5%;}
+.logoDiv {
+    max-width:10%;
+    max-height:10%;
+    display: inline; }
+.titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:'Trade Winds';
+    vertical-align: center;
+    margin-left: 2%; }
+.logoTitulo {
+    display: flex;
+    align-items: center;
+    max-width:10%;
+    max-height:10%; }
+.menuDiv {
+    width: 80%;
+    display: block;
+}
+.menuDivPichote {
+    width: 80%;
+    display: block;
+}
+
+.menu {
+    display: block;
+    list-style: none;
+    padding: 0; }
+.menu li {
+    display: block;
+    margin-right: 2%; }
+.menuPichote {
+    display: block;
+    list-style: none;
+    padding: 0; }
+.menuPichote li {
+    display: block;
+    margin-right: 2%; }
+/* ------------------- Contenido del main1 ------------------- */
+.mainGrid {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+    grid-template-areas:
+    'imagenGrande imagenGrande'
+    'imagenPequena1  imagenPequena3'
+    'imagenPequena2  imagenPequena4';
+    grid-gap: 10px;
+    padding: 10px;
+    max-width: 100%;
+    max-height: 100%;}
+.imagenGrande { 
+    grid-area: imagenGrande;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black; }
+.imgPequeña { 
+    max-width: 100%;
+    max-height: 100%; }
+.imgGrande { 
+    max-width: 100%;
+    max-height: 100%; }
+.plataformas {
+    width: 500px;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;}
+.plataformasDiv {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+.imgPlataforma {
+    max-height: 100%;}
+.review {
+    width: 100%;
+    margin:auto;
+    text-align: center;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    height:25px;}
+.imgEstrellas {
+    max-height: 100%;}
+.pReview {
+    font-style: italic;}
+.previewer {
+    font-weight: bold;}
+.videojuejoDescripcion {
+    font-style: italic;
+    justify-content: center}
+.videojuejoDescripcionDiv {
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;}
+.videojuejoParrafoDiv{
+    text-align: justify;
+    width:100%;}
+.videojuejoLink {
+    width: 200px;}
+/* ------------------- Contenido del main2 ------------------- */
+.main2Div {
+    height: auto;
+    width: auto;}
+.imagenYRatingDiv2 {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto ;
+    grid-template-areas:
+    'imagenMain2'
+    'plataformasMain2'
+    'reviewMain2';}
+.imgMain2 {
+    width: auto;}
+.imagenMain2Div {
+    grid-area: imagenMain2;
+    width: 100%;
+    text-align: center;}
+.plataformasMain2 {
+    grid-area: plataformasMain2;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 25px;}
+.reviewMain2 {
+    text-align: center;
+    grid-area: reviewMain2;
+    height: auto;
+    display: inline-block;
+    justify-content: space-evenly;
+    align-items: center;}
+.imgEstrellasMain2 {
+    max-height: 25px;}
+/* ------------------- Contenido del main3 ------------------- */
+.main3Div {
+    height: auto;
+    width: auto;}
+.imagenYRatingDiv3 {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto ;
+    grid-template-areas:
+    'imagenMain3'
+    'plataformasMain3'
+    'reviewMain3';}
+.imgMain3 {
+    width: auto;}
+.imagenMain3Div {
+    grid-area: imagenMain3;
+    width: 100%;
+    text-align: center;}
+.plataformasMain3 {
+    grid-area: plataformasMain3;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 25px;}
+.reviewMain3 {
+    text-align: center;
+    grid-area: reviewMain3;
+    height: auto;
+    display: inline-block;
+    justify-content: space-evenly;
+    align-items: center;}
+.imgEstrellasMain3 {
+    max-height: 25px;}
+/* ------------------- Contenido del footer ------------------- */
+.footerDiv {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    display:inline-block;}
+.socialDiv {
+    height: 30%;
+    align-items: center;}
+.infoDiv {
+    height: 30%;}
+.copyDiv {
+    height: 30%;}
+.imgSocial {
+    max-height: 50px;
+    height: 25px;}
+.footerDiv p {
+    color: white;
+    font-size: 50%;}
+/* ------------------- Contenido de Videojuego ------------------- */
+.grid-containerVideojuego {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto auto;
+    grid-template-areas:
+    'header'
+    'main'
+    'footer';
+    grid-gap: 1%;
+    background-color: black;
+    padding: 1%;}
+.mainGridVideojuego {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+    grid-template-areas:
+    'imagenGrandeV imagenGrandeV'
+    'imagenGrandeV imagenGrandeV'
+    'imagenPequena1V imagenPequena2V';
+    grid-gap: 10px;
+    padding: 10px;
+    max-width: 100%;
+    max-height: 100%;}
+.cosillasTecnicas {
+    border: 2px black solid;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+    grid-template-areas:
+    'imagenPequena3V'
+    'textoTecnicoUno';
+    grid-gap: 1%;
+    padding: 1%;}
+.cosillasTecnicas2 {
+    border: 2px black solid;
+    display: grid;
+   grid-template-columns: auto;
+    grid-template-rows: auto auto;
+    grid-template-areas:
+    'imagenPequena4V'
+    'textoTecnicoDos';
+    grid-gap: 1%;
+    padding: 1%;}
+/* ------------------- Contenido de Merchandising------------------- */
+.grid-containerMerchandising {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto auto;
+    grid-template-areas:
+    'header'
+    'main'
+    'footer';
+    grid-gap: 1%;
+    background-color: black;
+    padding: 1%;}
+.menuTienda {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 25px 25px;
+    grid-template-areas:
+    'headerTienda headerTienda headerTienda'
+    'compras ofertas cesta ';
+    grid-gap: 1%;
+    padding: 1%;
+    justify-content: center;}
+.objetosFlex {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: auto;
+  margin:auto;}
+.objetosFlex > div {
+  background-color: #ffadeb;
+  margin: 1%;
+  padding: 2%;
+  width: 97%;
+  height: auto;
+  text-align: center;
+  border: 2px black solid;}
+
+.menuDivOculto {
+    display: block;}
+.menuDiv {
+    width: 80%;
+    display: none;}
+.menuDivPichote {
+    width: 80%;
+    display: none;}
+}
+
+
+.gmap_canvas {
+max-width: 100%;
+    max-height: 100%;
+}
+
+@media (prefers-color-scheme: dark) {
+a:hover {
+box-shadow: 0px -5px 20px 0px rgba(221, 221, 221, 0.5);
+transition: box-shadow 0.5s ease;}
+img {
+    opacity: .75;
+    transition: opacity .5s ease-in-out;}
+img:hover {
+    opacity: 1;
+    transition: opacity 0.5s ease}
+h1, h3, p {
+    color: #f8b1f3;
+}
+.header { 
+    background-color: #2b0c37;
+}
+.headerPichote { 
+    background-color: #2b0c37;
+}
+.main { 
+    grid-area: main;
+    background-color: #00182b; }
+.main2 { 
+    grid-area: main2;
+    background-color: #06243b; }
+.main3 { 
+    grid-area: main3;
+    background-color: #00182b; }
+.menu li:link {
+    color: rgb(150, 44, 132); }
+.menu li:active {
+    color: rgb(134, 21, 116); }
+.menu li:visited {
+    color: rgb(90, 53, 78);}
+.menu li:hover {
+    color: rgb(124, 73, 227);
+    transition: color 0.5s ease}
+    .objetosFlex > div {
+  background-color: #350028;}
+
+}
+.hidden {
+  display: none;
+}
+.carrito-preview {
+    display: none;
+    position: absolute;
+    right: 0;
+    width: auto;
+    height: auto;
+    background-color: #590082;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px;
+    z-index: 1;
+    border-radius: 10px;
+    border: black solid 2px;
+}
+
+li:hover .carrito-preview {
+    display: block;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+th {
+    background-color: #f2f2f2;
+}
+
+h1 {
+    text-align: center;
+}

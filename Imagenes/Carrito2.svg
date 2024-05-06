@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg width="84.545mm" height="63.156mm" version="1.1" viewBox="0 0 84.545 63.156" xmlns="http://www.w3.org/2000/svg">
+ <g transform="translate(-48.926 -66.164)">
+  <g fill="#800080" stroke="#800080">
+   <ellipse cx="96.799" cy="97.742" rx="36.04" ry="30.945" stroke-width="1.265" style="paint-order:fill markers stroke"/>
+   <rect x="60.781" y="97.576" width="72.035" height="31.089" stroke-width="1.3098" style="paint-order:fill markers stroke"/>
+   <path d="m71.137 75.948-18.586-2.0756 7.4533 7.4533-9.3402 4.0569 12.737 4.4342z" stroke-width="1.265" style="paint-order:fill markers stroke"/>
+  </g>
+  <g fill="#f0f">
+   <ellipse cx="93.402" cy="76.184" rx="7.925" ry="7.0287" stroke="#800080" stroke-width="1.265" style="paint-order:fill markers stroke"/>
+   <g stroke-width="0">
+    <rect x="72.041" y="94.279" width="40.003" height="2.3586" style="paint-order:fill markers stroke"/>
+    <rect x="77.324" y="108.34" width="34.247" height="1.7926" style="paint-order:fill markers stroke"/>
+    <rect x="111.38" y="92.487" width="16.51" height="2.2643" style="paint-order:fill markers stroke"/>
+    <rect transform="matrix(.36958 .9292 -.96981 .24388 0 0)" x="111.65" y="-36.241" width="15.314" height="4.2399" style="paint-order:fill markers stroke"/>
+    <rect transform="matrix(-.0049149 .99999 -.99999 -.0034553 0 0)" x="94.793" y="-112.03" width="14.629" height="3.4101" style="paint-order:fill markers stroke"/>
+    <rect x="83.268" y="109.19" width="2.9247" height="7.642" style="paint-order:fill markers stroke"/>
+    <rect x="103.8" y="109.84" width="2.9247" height="7.642" style="paint-order:fill markers stroke"/>
+    <ellipse cx="84.919" cy="120.13" rx="5.7079" ry="5.6607" style="paint-order:fill markers stroke"/>
+    <ellipse cx="105.42" cy="119.54" rx="5.7079" ry="5.6607" style="paint-order:fill markers stroke"/>
+   </g>
+  </g>
+ </g>
+</svg>

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Videojuegos Pichote</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css.css'>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Trade+Winds&display=swap" rel="stylesheet">
+    <script src='main.js'></script>
+</head>
+<body>
+    <button id="hellYeahLetsGoTop" onclick="letsGoTop()" style="display: none;">↑ Subir</button>
+    <div class="grid-container">
+        <header class="header">
+                <div class="logoTitulo"><img class="logo" src="Imagenes/Logoclaro2.svg" alt="Logo"><h1 class="titulo">Videojuegos Pichote</h1></div>
+                <div id="menu" class="menuDiv">
+                    <ul class="menu">
+                        <li><a href="team.html"><h2>Estudio</h2></a></li>
+                        <li><a href="merchandising.html"><h2>Merchandising</h2></a></li>
+                        <li><a href="videojuego1.html"><h2>Sed de aventura 2</h2></a></li>
+                        <li><a href="videojuego2.html"><h2>World of Craftmanship</h2></a></li>
+                        <li><a href="videojuego3.html"><h2>Sed de aventura</h2></a></li>
+                        <li><a href="carritoPichote.html" id="carritoMenuAqui"><h2>Carrito</h2></a>
+                        <div id="vista-previa-carrito" class="carrito-preview">
+                        <h1>Carrito de Compras</h1>
+                 <table>
+                    <thead>
+                        <tr>
+                            <th>Producto</th>
+                            <th>Precio</th>
+                            <th>Cantidad</th>
+                            <th>Total</th>
+                        </tr>
+                    </thead>
+                    <tbody id="lista-carrito"></tbody>
+                </table>
+                        </div></li>
+                        
+                    </ul>
+                </div>
+                <div class="menuDivOculto">
+                    <button id="botonMenu" onclick="menuShow()">. . . </button>
+                </div>
+        </header>
+        <div class="side"></div>
+        
+        <main class="main">
+            <div class="carousel">
+                <div class="carousel-images">
+                <img loading='lazy' src="Imagenes/Portadas/Videojuego11Grande.png" alt="Arte 1" title="Imagen promocional de los viejos cuarteles encontrados en el juego.">
+                <img loading='lazy' src="Imagenes/Portadas/Videojuego12Grande.png" alt="Arte 2" title="Imagen promocional de una de las llanuras encontradas en el juego.">
+                <img loading='lazy' src="Imagenes/Portadas/Videojuego13Grande.png" alt="Arte 3" title="Imagen promocional de uno de los escenarios montañosos del juego.">
+                <img loading='lazy' src="Imagenes/Portadas/Videojuego14Grande.png" alt="Arte 4" title="Imagen de gameplay mostrando uno de los escenarios.">
+                <img loading='lazy' src="Imagenes/Portadas/Videojuego15Grande.png" alt="Arte 5" title="Imagen de gameplay mostrando uno de los jefes finales.">
+                    
+                </div>
+                <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+                <button class="next" onclick="moveSlide(1)">&#10095;</button>
+            </div>
+            <br>
+            <div class="plataformasDiv">
+                <div class="plataformas">
+                    <img class="imgPlataforma" src="Imagenes/Steamo.png" alt="Steam" loading='lazy' >
+                    <img class="imgPlataforma" src="Imagenes/X.png" alt="Xbox" loading='lazy' >
+                    <img class="imgPlataforma" src="Imagenes/Play.png" alt="Playstation" loading='lazy' >
+                </div>
+            </div>
+            <br>
+            <div class="review"> 
+                <img class="imgEstrellas" src="Imagenes/fourhalf.png" alt="Cuatro estrellas y media" loading='lazy' >
+                <p class="pReview"> "Definitivamente, uno de los juegos del año." </p>
+                <p class="previewer"> - The angry videogame connosieur with the weird hat -</p>
+            </div>
+            <br>
+            <div class="videojuejoDescripcionDiv">
+                <div class="videojuejoParrafoDiv">
+                    <p>Adéntrate en el mundo de El Cruce, definitivamente no el peor mundo de Videojuegos
+                        visto hasta la fecha. Explora mazmorras, utiliza tus Sentidos de Aventurero para explorar areas y compra
+                        objetos en la tienda premium, todo mientras la banda sonora de Diossabe Quien te deleita los oidos y hace
+                        de esta una de las mas mediocres aventuras RPG de todos los tiempos.</p>
+                </div>
+                    <h3 class="videojuejoDescripcion">¿Desea saber mas?</h3>
+            </div>
+        </main>  
+        <div class="side2"></div>
+        <div class="side"></div>
+        <div class="main2">
+            <div class="main2Div">
+                <div class="imagenYRatingDiv2">
+                    <div class="imagenMain2Div">
+                        <a href="Imagenes/Portadas/Videojuego2Grande.png" target="_blank"><img loading='lazy' class="imgMain2" src="Imagenes/Portadas/Videojuego2Med.png" alt="Arte" loading='lazy' ></a>
+                    </div>
+                    <div class="plataformasMain2">
+                        <img class="imgPlataforma" src="Imagenes/Steamo.png" alt="Steam" loading='lazy' >
+                        <img class="imgPlataforma" src="Imagenes/X.png" alt="Xbox" loading='lazy' >
+                        <img class="imgPlataforma" src="Imagenes/Play.png" alt="Playstation" loading='lazy' >
+                    </div>
+                    <div class="reviewMain2">
+                        <img class="imgEstrellasMain2" src="Imagenes/fivestars.png" alt="Cinco estrellas" loading='lazy' >
+                    <p class="pReview"> "El mejor juego sobre hacer cosas que verás en su mes de lanzamiento."</p>
+                    <p class="previewer"> - The weird guy with the smelly beard -</p>
+                    </div>
+                </div>
+                <div class="videojuejoDescripcionDiv">
+                    <div class="videojuejoParrafoDiv">
+                        <p>¿Tienes tiempo de sobra? ¿Te apetece pasarte horas dándole martillazos a un
+                            pedazo de metal, para hacer una espada que vender por dinero? Pues mira para otro lado,
+                            porque eso no es lo que vas a encontrar aquí. En World of Craftmanship, el proceso de hacer objetos
+                            con las manos está hecho de manera que resulta placentera, incluso adictiva. Conviértete en el chiste
+                            de la semana poseyendo 300 espadas iguales solo porque hacerlas es divertido.
+                        </p>
+                    </div>
+                        <h3 class="videojuejoDescripcion">¿Desea saber mas?</h3>
+                </div>
+            </div>
+        </div>  
+        <div class="side2"></div>
+        <div class="side"></div>
+        <div class="main3">
+            <div class="imagenYRatingDiv3">
+                <div class="plataformasMain3">
+                    <img class="imgPlataforma" src="Imagenes/Steamo.png" alt="Steam" loading='lazy' >
+                    <img class="imgPlataforma" src="Imagenes/X.png" alt="Xbox" loading='lazy' >
+                    <img class="imgPlataforma" src="Imagenes/Play.png" alt="Playstation" loading='lazy' >
+                </div>
+                <div class="reviewMain3">
+                    <img class="imgEstrellasMain3" src="Imagenes/fourhalf.png" alt="Cuatro estrellas y media" loading='lazy' >
+                <p class="pReview"> "Lo juego en mis ratos libres, bastante bueno."</p>
+                <p class="previewer"> - Paco, el jardinero -</p>
+                </div>
+                <div class="imagenMain3Div">
+                    <a href="Imagenes/Portadas/Videojuego3Grande.png" target="_blank"><img loading='lazy' class="imgMain3" src="Imagenes/Portadas/Videojuego3Med.png" alt="Arte" loading='lazy' ></a>
+                </div>
+            </div>
+            <div class="videojuejoDescripcionDiv">
+                <div class="videojuejoParrafoDiv">
+                    <p>La primera parte de la exitosa saga Sed de Aventura, en la que podrás descubrir porqué el protagonista
+                        de Sed de Aventura II busca venganza. Uno de los mejores juegos para matar unas cuantas horas de mientras
+                        sale algo mejor, te cautivará con su banda sonora amateur y su pobre diseño de niveles. Ahora con menos glitches.
+                    </p>
+                </div>
+                    <h3 class="videojuejoDescripcion">¿Desea saber mas?</h3>
+            </div>
+        </div>  
+        <div class="side2"></div>
+        <footer class="footer">
+            <div class="footerDiv">
+                <div class="infoDiv">
+                    <p class="pFooter">Email de contacto: videojuegospichote@pichotazo.com</p>
+                </div>
+                <div class="socialDiv">
+                    <img class="imgSocial" src="Imagenes/twitter.png" alt="Twitter" loading='lazy' >
+                    <img class="imgSocial" src="Imagenes/facebook.png" alt="Facebook" loading='lazy' >
+                    <img class="imgSocial" src="Imagenes/instagram.png" alt="Instagram" loading='lazy' >
+                </div>
+                <div class="copyDiv">
+                    <p class="pFooter">©Videojuegos Pichote todos los derechos reservados</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    
+</body>
+</html>

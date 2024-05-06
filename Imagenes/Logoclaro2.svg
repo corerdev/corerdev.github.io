@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg width="88.181mm" height="77.347mm" version="1.1" viewBox="0 0 88.181 77.347" xmlns="http://www.w3.org/2000/svg">
+ <g transform="translate(-55.327 -50.961)">
+  <g fill="#800080">
+   <ellipse cx="101.15" cy="95.118" rx="23.438" ry="20.19" stroke-width="1.1628" style="paint-order:fill markers stroke"/>
+   <rect x="85.288" y="109.06" width="31.7" height="19.245" stroke-width=".97412" style="paint-order:fill markers stroke"/>
+   <ellipse cx="101.33" cy="76.043" rx="12.642" ry="18.303" stroke-width="1.265" style="paint-order:fill markers stroke"/>
+  </g>
+  <g fill="#f0f" stroke-width="1.265">
+   <g stroke="#800080">
+    <path d="m93.472 64.929-8.419-0.93544 4.7708 3.2741-7.0158 0.56127 8.8867 3.4611-0.28063-3.7418z" style="paint-order:fill markers stroke"/>
+    <ellipse cx="99.979" cy="63.384" rx="3.8353" ry="2.5257" style="paint-order:fill markers stroke"/>
+    <ellipse transform="rotate(20.889)" cx="99.253" cy="53.593" rx="15.147" ry="7.4083" style="paint-order:fill markers stroke"/>
+    <ellipse cx="61.185" cy="70.445" rx="5.0932" ry="11.84" style="paint-order:fill markers stroke"/>
+    <ellipse cx="60.788" cy="56.026" rx="4.8286" ry="4.4318" style="paint-order:fill markers stroke"/>
+    <ellipse transform="rotate(24.4)" cx="153.57" cy="29.842" rx="13.626" ry="6.2177" style="paint-order:fill markers stroke"/>
+    <ellipse cx="137.45" cy="104.71" rx="5.1594" ry="10.782" style="paint-order:fill markers stroke"/>
+    <ellipse cx="137.65" cy="117.01" rx="5.2255" ry="4.8286" style="paint-order:fill markers stroke"/>
+   </g>
+   <rect x="92.736" y="85.99" width="9.2604" height="24.871" style="paint-order:fill markers stroke"/>
+   <ellipse cx="104.38" cy="93.266" rx="8.8635" ry="7.5406" style="paint-order:fill markers stroke"/>
+  </g>
+  <ellipse cx="104.18" cy="93.729" rx="4.0349" ry="3.5057" fill="#800080" stroke="#f0f" stroke-width="1.265" style="paint-order:fill markers stroke"/>
+ </g>
+</svg>
